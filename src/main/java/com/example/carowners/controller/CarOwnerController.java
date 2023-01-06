@@ -13,7 +13,7 @@ public class CarOwnerController {
 
     @GetMapping("/api/carOwnerInfo")
     public String getCarOwnerInfo() {
-        return carOwnerService.getCarOwnersInfo().toString();
+        return carOwnerService.getCarOwnersInfo();
     }
 }
 
